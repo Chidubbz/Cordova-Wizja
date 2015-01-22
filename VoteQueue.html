@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Voting Queue</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<link href="admincss.css" rel="stylesheet"/>
+</head>
+<body>
+	<div id="header">
+		<!-- <img src="Logo.png"/> -->
+		<img src="sf.jpg"/>
+	</div>
+
+	<div class="container">
+		<div class="jumbotron">
+			<div id="navbar"><button><a href="adminhomepage.html"><img src="navbutton.png"></a></button></div>
+			<h1>Vote Queue</h1>
+			<div id="same">
+				<table style="width:100%">
+  <tr>
+    <td><button>Insurance for employees 04.03.2014</button></td>
+    <td><button class="s">send</button></td>	
+    <td><button class="s">edit</button></td>	
+    
+  </tr>
+  <tr>
+    <td><button>New locatoion of office 03.03.2014</button></td>
+    <td><button class="s">send</button></td>
+    <td><button class="s">edit</button></td>		
+			</div>
+
+			<script>
+			$(document).ready(function(){
+			    $('.s').click(function(){
+			      confirm("Are you sure that you want to sent out the vote ?");
+					});
+				});
+
+
+
+		</script>
+
+			<script type="text/javascript" src="main.js"></script>
+		</div>
+	</div>
+
+</body>
+</html>
